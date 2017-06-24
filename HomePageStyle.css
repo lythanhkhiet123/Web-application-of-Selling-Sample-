@@ -1,0 +1,146 @@
+body {
+    background-color: blanchedalmond;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+    
+}
+
+li {
+    float: left;
+    
+}
+li.intersection{
+    border-left: white solid;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 130px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+h1 {
+    color: red;
+    text-align: left;
+    margin-left: 250px;
+}
+
+#special{
+    color: Black;
+}
+p {
+    font-family: serif;
+    font-size: 15px;
+}
+#adleft{
+    float:left;
+    margin: 0px 0 10px 10px;
+    position: fixed;
+}
+#adright{
+    float: right;
+    margin: 0 0 10px 1130px;;
+    position: fixed;
+}
+
+div.box-content
+{
+    padding: 10px 0px;
+    width: 67%;
+    box-sizing: border-box;
+    margin: 0 0 0 230px;
+    
+}
+div.box-product
+{
+    width: 200px;
+    height: 310px;
+    
+    margin: 0 0 30px 18px;
+    float: left;
+    box-shadow: 0px 7px 5px #999999;
+    border-radius: 10px;
+}
+div.box-image
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    
+}
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div.box-name
+{
+    width: 100%;
+    height: 80px;
+    
+    margin-top: 5px;
+}
+h3.box-name
+{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h3.box-price
+{
+    text-align: center;
+    margin-top: -21px;
+    color: red;
+    font-size:23px;
+}
+div.box-price
+{
+    width: 100%;
+    height: 30px;
+    
+    margin-top: 1px;
+    
+}
+#discount{
+    text-align: center;
+    margin-top: -19px;
+    text-decoration: line-through;
+    font-size: 17px;
+}
+
+#contactword{
+    font-size: 20px;
+    
+}
+
+#contactword2{
+    font-size: 20px;
+    margin-top: -120px;
+}
+#submitbutton{
+    font-size:20px;
+    float:right;
+    margin-right: 180px;
+}
+#resetbutton{
+    font-size:20px;
+    float:right;
+    margin-right: 20px;
+}
